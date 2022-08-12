@@ -17,7 +17,7 @@ Those tutorials are for *KeenTools core library* version **2022.2.0**.
 *KeenTools core library* is a software library containing methods and classes used by 
 [KeenTools](https://keentools.io) products.
 
-###*KeenTools core library* contains:
+### *KeenTools core library* contains:
 - `FaceBuilder` class — FaceBuilder implementation, used in *FaceBuilder for Blender* and *FaceBuilder for Nuke*;
 - `GeoTracker` class — GeoTracker implementation, used in *GeoTracker for Blender* and *GeoTracker for After Effects*;
 - `texture_builder` module, implementing texture building capabilities for arbitrary geometry (used in *Nuke TextureBuilder* and texture building function of *FaceBuilder for Blender*);
