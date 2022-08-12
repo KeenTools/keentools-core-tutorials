@@ -4,7 +4,7 @@
 This repository contains basic information and tutorials on [*KeenTools core library*](#keentools-core-library).
 
 ## Tutorials list
-- [*pykeentools* installation tutorial](/pykeentools_installation_tutorial);
+- [*pykeentools* installation tutorial](/pykeentools_installation_tutorial/README.md);
 - TODO OT-2760 precalc tutorial;
 - TODO OT-2761 FaceBuilder tutorial;
 - TODO OT-2762 texture builder tutorial.

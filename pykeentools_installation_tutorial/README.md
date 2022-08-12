@@ -4,7 +4,7 @@
 This tutorial covers basic *pykeentools* installation and usage.
 
 ## Recap
-1. Install [Python](../#keentools-core-library-supported-platforms) and `numpy`;
+1. Install [Python](../README.md#keentools-core-library-supported-platforms) and `numpy`;
 2. [Download](https://keentools.io/download/core) and unpack *KeenTools core library* (a.k.a. *pykeentools*);
 3. Add directory `./pykeentools_installation/pykeentools` to PYTHONPATH;
 4. From Python import pykeentools module `import pykeentools as pkt`
@@ -16,7 +16,8 @@ and use *pykeentools*. E.g.
 ## *pykeentools* installation step-by-step guide
 ### 1. Requirements
 In this tutorial we use Python 3.9 in `ubuntu:20.04` docker container to try *pykeentools*.  
-You can use other python versions and operating systems. See [supported platforms](../#keentools-core-library-supported-platforms).
+You can use other python versions and operating systems.
+See [supported platforms](../README.md#keentools-core-library-supported-platforms).
 
 
 ```
@@ -84,4 +85,4 @@ This will enable you to run your scripts using *pykeentools* from *PyCharm*.
 *PyCharm* will also generate stubs for `pykeentools` module to enable autocomplete.
 ![developing with pykeentools in PyCharm](./imgs/pykeentools_in_pycharm.jpg "pykeentools in PyCharm")
 
-#### See [other tutorials](../#tutorials-list) for *pykeentools* usage examples.
+#### See [other tutorials](../README.md#tutorials-list) for *pykeentools* usage examples.
