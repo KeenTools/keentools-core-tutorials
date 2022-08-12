@@ -1,4 +1,4 @@
-![KeenTools logo](/imgs/KeenTools.png "KeenTools")
+![KeenTools logo](./imgs/KeenTools.png "KeenTools")
 
 # Tutorials for *KeenTools core library*
 This repository contains basic information and tutorials on [*KeenTools core library*](#keentools-core-library).
