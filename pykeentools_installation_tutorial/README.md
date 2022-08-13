@@ -83,6 +83,7 @@ For example, using *PyCharm* you can add `pykeentools_installation/pykeentools/`
 [`Interpreter paths`](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-reloading-interpreter-paths.html).  
 This will enable you to run your scripts using *pykeentools* from *PyCharm*.
 *PyCharm* will also generate stubs for `pykeentools` module to enable autocomplete.
+
 ![developing with pykeentools in PyCharm](./imgs/pykeentools_in_pycharm.jpg "pykeentools in PyCharm")
 
 #### See [other tutorials](../README.md#tutorials-list) for *pykeentools* usage examples.

@@ -17,9 +17,11 @@ and basic example of using *TextureBuilder*.
 ## *TextureBuilder* step-by-step tutorial
 ### 1. Problem statement
 We have an image of a known geometry taken with a known camera from a known position:
+
 ![rendered plane image](./src/rendered_plane.jpg "rendered plana")
 
 We need to get a texture for that geometry from the image:
+
 ![result texture](./built_texture_example.jpg "texture")
 
 We can use `pykeentools.texture_builder` module to do so.
