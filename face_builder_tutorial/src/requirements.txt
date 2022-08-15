@@ -1,0 +1,2 @@
+numpy
+# pykeentools should be in PYTHONPATH. See pykeentools installation tutorial
