@@ -22,7 +22,7 @@ We have an image of a known geometry taken with a known camera from a known posi
 
 We need to get a texture for that geometry from the image:
 
-![result texture](./built_texture_example.jpg "texture")
+![result texture](./imgs/built_texture_example.jpg "texture")
 
 We can use `pykeentools.texture_builder` module to do so.
 
@@ -64,7 +64,7 @@ We load image, add alpha channel, change channels order and flip the image:
 import cv2
 
 def _load_image(image_path: str):
-    return cv2.flip(cv2.cvtColor(cv2.imread(image_path), cv2.COLOR_BGR2RGBA), 0)
+    return cv2.flip(cv2.cvtColor(cv2.imread(image_path), cv2.COLOR_BGR2RGBA), 0) / 255.0
 ```
 
 And here is the function that saves image in *pykeentools* format to a file. 
@@ -73,7 +73,7 @@ We do the same transformations backwards:
 import cv2
 
 def _write_image(image_path: str, img: np.array):
-    cv2.imwrite(image_path, cv2.flip(cv2.cvtColor(img, cv2.COLOR_RGBA2BGRA), 0))
+    cv2.imwrite(image_path, cv2.flip(cv2.cvtColor((img * 255.0).astype(np.uint8), cv2.COLOR_RGBA2BGRA), 0))
 ```
 
 

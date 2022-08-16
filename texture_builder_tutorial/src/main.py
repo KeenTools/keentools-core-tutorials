@@ -6,11 +6,11 @@ import typing
 
 
 def _load_image(image_path: str):
-    return cv2.flip(cv2.cvtColor(cv2.imread(image_path), cv2.COLOR_BGR2RGBA), 0)
+    return cv2.flip(cv2.cvtColor(cv2.imread(image_path), cv2.COLOR_BGR2RGBA), 0) / 255.0
 
 
 def _write_image(image_path: str, img: np.array):
-    cv2.imwrite(image_path, cv2.flip(cv2.cvtColor(img, cv2.COLOR_RGBA2BGRA), 0))
+    cv2.imwrite(image_path, cv2.flip(cv2.cvtColor((img * 255.0).astype(np.uint8), cv2.COLOR_RGBA2BGRA), 0))
 
 
 def _build_plane_geo() -> pkt.Geo:
