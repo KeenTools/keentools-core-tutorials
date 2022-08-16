@@ -1,0 +1,3 @@
+numpy
+opencv-python
+# pykeentools should be in PYTHONPATH. See pykeentools installation tutorial
