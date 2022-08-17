@@ -9,7 +9,7 @@ Tutorials cover *pykeentools*, but can be applied to any *KeenTools core library
 2. [*TextureBuilder* tutorial](./texture_builder_tutorial/README.md);
 3. [*FaceBuilder* basic tutorial](./face_builder_tutorial/README.md);
 3. [*FaceBuilder* head reconstruction tutorial](./face_builder_reconstruction_tutorial/README.md);
-4. TODO OT-2760 precalc tutorial.
+4. [*precalc* tutorial](./precalc_tutorial/README.md).
 
 ## Version notice
 Those tutorials are for *KeenTools core library* version **2022.2.0**.
