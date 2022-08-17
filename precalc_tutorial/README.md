@@ -122,3 +122,7 @@ In this tutorial we learned how we can pre-analyse a sequence for later tracking
 
 This method may be used, for example, to pre-analyse a bunch of sequences on a server to be later used
 in any of our tracking tools (e.g. *GeoTracker for Nuke*).
+
+You can find the whole code combined in [src/main.py](./src/main.py). 
+Do not forget to [install pykeentools](./../pykeentools_installation_tutorial/README.md) and 
+`pip install -r requirements.txt` before running.
