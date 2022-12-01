@@ -222,7 +222,7 @@ def _add_and_move_pin(face_builder):
 
 Here is how a similar scene would look in Nuke:
 
-![FaceBuilder in Nuke](./imgs/FaceBuilder in Nuke pin move.jpg "FaceBuilder in Nuke example scene")
+![FaceBuilder in Nuke]("./imgs/FaceBuilder in Nuke pin move.jpg" "FaceBuilder in Nuke example scene")
 
 ### 5. Summary
 Now we know how to use `FaceBuilder` basic methods. We also know how to create keyframes, create pins,
